@@ -16,12 +16,15 @@
     <!-- global css -->
     <link type="text/css" href="~/Areas/Admin/Public/css/bootstrap.min.css" rel="stylesheet" />
     <link type="text/css" href="~/Areas/Admin/Public/css/font-awesome.min.css" rel="stylesheet" />
+    <link type="text/css" href="~/Areas/Admin/Public/css/custom_css/fitness.css" rel="stylesheet" />
     <link type="text/css" href="~/Areas/Admin/Public/css/custom_css/metisMenu.css" rel="stylesheet" />
+    <link type="text/css" href="~/Areas/Admin/Public/css/custom_css/panel.css" rel="stylesheet" />
+    <link type="text/css" href="~/Areas/Admin/Public/css/custom_css/coupon.css" rel="stylesheet" />
     <!-- Date picker -->
     <link href="~/Areas/Admin/Public/vendors/air-datepicker-master/dist/css/datepicker.min.css" rel="stylesheet" type="text/css">
     <!-- end of global css -->
     <!-- page level css -->
-    @RenderSection("styles",false)
+    @RenderSection("styles", false)
     <!-- end of page level css -->
 </head>
 
@@ -335,42 +338,42 @@
                             </a>
                         </li>
                         <li>
-                            <a href="admin_clubinfo.html">
+                            <a href="@Url.Action("Index","ClubInfo")">
                                 <i class="text-success menu-icon fa fa-fw fa-info-circle"></i>
                                 <span class="mm-text">Club Info</span>
                             </a>
                         </li>
                         <li>
-                            <a href="packages.html">
+                            <a href="@Url.Action("Index","Packages")">
                                 <i class="text-primary menu-icon fa fa-th fa-info-circle"></i>
                                 <span class="mm-text">Packages</span>
                             </a>
                         </li>
 
                         <li class="menu-dropdown">
-                            <a href="#">
+                            <a href="@Url.Action("Index","CourseSchedule")">
                                 <i class="text-warning menu-icon fa fa-fw fa-graduation-cap"></i>
                                 <span class="mm-text">Course Schedule</span>
                                 <span class="fa fa-angle-down pull-right"></span>
                             </a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="admin_courseschedule.html">
+                                    <a href="@Url.Action("Index","CourseSchedule")">
                                         <i class="text-primary fa fa-fw fa-th"></i> Course Schedule
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="courses.html">
+                                    <a href="@Url.Action("Courses","CourseSchedule")">
                                         <i class="text-success fa fa-fw fa-indent"></i> Courses
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="admin_rooms.html">
+                                    <a href="@Url.Action("Rooms","CourseSchedule")">
                                         <i class="text-info fa fa-fw fa-star"></i> Rooms
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="admin_trainers.html">
+                                    <a href="@Url.Action("Trainers","CourseSchedule")">
                                         <i class="text-danger fa fa-fw fa-paw"></i> Trainers
                                     </a>
                                 </li>
@@ -384,36 +387,36 @@
                             </a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="admin_userlist.html">
+                                    <a href="@Url.Action("UsersList","Users")">
                                         <i class="text-primary fa fa-fw fa-users"></i> Users List
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="admin_userprofile.html">
+                                    <a href="@Url.Action("UserProfile","Users")">
                                         <i class="text-success fa fa-fw fa-user"></i> User Profile
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="add_users.html">
+                                    <a href="@Url.Action("AddUsers","Users")">
                                         <i class="text-info fa fa-fw fa-user"></i> Add Users
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="admin_userpayment.html">
+                                    <a href="@Url.Action("Payments","Users")">
                                         <i class="text-danger fa fa-fw fa-money"></i> Payments
                                     </a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="admin_coupon.html">
+                            <a href="@Url.Action("Index","Coupons")">
                                 <i class="text-primary  menu-icon fa fa-scissors"></i>
                                 <span class="mm-text">Coupons</span>
                             </a>
                         </li>
 
                         <li>
-                            <a href="admin_timings.html">
+                            <a href="@Url.Action("Index","ClassCalendar")">
                                 <i class="text-info menu-icon fa fa-fw fa-clock-o"></i>
                                 <span class="mm-text ">Class Calendar</span>
                             </a>
@@ -435,25 +438,17 @@
     <script src="~/Areas/Admin/Public/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="~/Areas/Admin/Public/js/custom_js/app.js" type="text/javascript"></script>
     <script src="~/Areas/Admin/Public/js/custom_js/metisMenu.js" type="text/javascript"></script>
-    <script src="~/Areas/Admin/Public/js/custom_js/backstretch.js"></script>
+    <script src="~/Areas/Admin/Public/vendors/holder/holder.js" type="text/javascript"></script>
+
+    @*<script src="~/Areas/Admin/Public/js/jquery.min.js" type="text/javascript"></script>
+    <script src="~/Areas/Admin/Public/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="~/Areas/Admin/Public/js/custom_js/app.js" type="text/javascript"></script>
+    <script src="~/Areas/Admin/Public/js/custom_js/metisMenu.js" type="text/javascript"></script>*@
+    @*<script src="~/Areas/Admin/Public/js/custom_js/backstretch.js"></script>*@
+    @*<script src="~/Areas/Admin/Public/vendors/holder/holder.min.js"></script>*@
+
     <!-- end of global level js -->
-    <script src="~/Areas/Admin/Public/vendors/jquery-circliful/js/jquery.circliful.min.js" type="text/javascript"></script>
-    <script src="~/Areas/Admin/Public/vendors/progressbar/bootstrap-progressbar.min.js" type="text/javascript"></script>
-    <script src="~/Areas/Admin/Public/vendors/countUp/countUp.js" type="text/javascript"></script>
-    <script src="~/Areas/Admin/Public/vendors/moment/min/moment.min.js" type="text/javascript"></script>
-    <!-- date picker -->
-    <script src="~/Areas/Admin/Public/vendors/air-datepicker-master/dist/js/datepicker.min.js"></script>
-    <script src="~/Areas/Admin/Public/vendors/air-datepicker-master/dist/js/i18n/datepicker.en.js"></script>
-    <!-- date picker end -->
-    <script src="~/Areas/Admin/Public/vendors/sweetalert/dist/sweetalert2.js" type="text/javascript"></script>
-    <script src="~/Areas/Admin/Public/vendors/fullcalendar/fullcalendar.js" type="text/javascript"></script>
-    <script src="~/Areas/Admin/Public/vendors/d3-chart/d3.v3.min.js" type="text/javascript"></script>
-    <script src="~/Areas/Admin/Public/vendors/nvd3chart/nv.d3.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="~/Areas/Admin/Public/vendors/jquery-easy-ticker-master/jquery.easy-ticker.min.js"></script>
-    <script src="~/Areas/Admin/Public/vendors/inputmask/inputmask/inputmask.js" type="text/javascript"></script>
-    <script src="~/Areas/Admin/Public/vendors/inputmask/inputmask/jquery.inputmask.js" type="text/javascript"></script>
-    <script src="~/Areas/Admin/Public/vendors/inputmask/inputmask/inputmask.date.extensions.js" type="text/javascript"></script>
-    <script src="~/Areas/Admin/Public/js/custom_js/admin_index.js" type="text/javascript"></script>
+    @RenderSection("scripts", false)
     <!-- end of page level js -->
 </body>
 

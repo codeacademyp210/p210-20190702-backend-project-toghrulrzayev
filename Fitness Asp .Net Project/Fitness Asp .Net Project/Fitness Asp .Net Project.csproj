@@ -153,7 +153,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\ClassCalendarController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ClubInfoController.cs" />
+    <Compile Include="Areas\Admin\Controllers\CouponsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\CourseScheduleController.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Admin\Controllers\PackagesController.cs" />
+    <Compile Include="Areas\Admin\Controllers\UsersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -512,6 +518,18 @@
     <Content Include="Areas\Admin\Public\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Areas\Admin\Public\fonts\glyphicons-halflings-regulard41d.eot" />
     <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\ClubInfo\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Packages\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Coupons\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\ClassCalendar\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\CourseSchedule\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\CourseSchedule\Courses.cshtml" />
+    <Content Include="Areas\Admin\Views\CourseSchedule\Rooms.cshtml" />
+    <Content Include="Areas\Admin\Views\CourseSchedule\Trainers.cshtml" />
+    <Content Include="Areas\Admin\Views\Users\UsersList.cshtml" />
+    <Content Include="Areas\Admin\Views\Users\UserProfile.cshtml" />
+    <Content Include="Areas\Admin\Views\Users\AddUsers.cshtml" />
+    <Content Include="Areas\Admin\Views\Users\Payments.cshtml" />
     <None Include="packages.config" />
   </ItemGroup>
   <PropertyGroup>
