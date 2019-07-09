@@ -9,8 +9,12 @@ namespace Fitness_Asp.Net_Project.Areas.Admin.Controllers
 
         public ActionResult Index()
         {
-
-            return View();
+            if (Session["isLogin"] != null && (bool)Session["isLogin"] == true)
+            {
+                return View();
+            }
+            return RedirectToAction("Index", "Login");
+            
         }
 
     }
