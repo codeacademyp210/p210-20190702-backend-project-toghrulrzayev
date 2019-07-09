@@ -94,4 +94,13 @@ C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .N
 C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness Asp .Net Project.csproj.CopyComplete
 C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness_Asp.Net_Project.dll
 C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness_Asp.Net_Project.pdb
-C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness Asp .Net Project.csprojAssemblyReference.cache
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\EntityFramework.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\EntityFramework.SqlServer.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\EntityFramework.xml
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\EntityFramework.SqlServer.xml
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness_Asp.Net_Project.Migrations.Createdatabaseandtables.resources
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness Asp .Net Project.csproj.GenerateResource.cache
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness_Asp.Net_Project.Migrations.Addcommunacition.resources
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness_Asp.Net_Project.Migrations.DescriptionAdded.resources
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness_Asp.Net_Project.Migrations.Addtable.resources
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness_Asp.Net_Project.Migrations.TableAddedAdminUser.resources

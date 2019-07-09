@@ -11,19 +11,39 @@ namespace Fitness_Asp.Net_Project.Areas.Admin.Controllers
         // GET: Admin/Users
         public ActionResult UsersList()
         {
-            return View();
+            if (Session["isLogin"] != null && (bool)Session["isLogin"] == true)
+            {
+                return View();
+            }
+            return RedirectToAction("Index", "Login");
+            
         }
         public ActionResult UserProfile()
         {
-            return View();
+            if (Session["isLogin"] != null && (bool)Session["isLogin"] == true)
+            {
+                return View();
+            }
+            return RedirectToAction("Index", "Login");
+            
         }
         public ActionResult AddUsers()
         {
-            return View();
+            if (Session["isLogin"] != null && (bool)Session["isLogin"] == true)
+            {
+                return View();
+            }
+            return RedirectToAction("Index", "Login");
+            
         }
         public ActionResult Payments()
         {
-            return View();
+            if (Session["isLogin"] != null && (bool)Session["isLogin"] == true)
+            {
+                return View();
+            }
+            return RedirectToAction("Index", "Login");
+            
         }
     }
 }

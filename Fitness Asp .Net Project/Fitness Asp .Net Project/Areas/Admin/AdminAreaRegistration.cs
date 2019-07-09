@@ -17,7 +17,7 @@ namespace Fitness_Asp.Net_Project.Areas.Admin
             context.MapRoute(
                 "Admin_default",
                 "",
-                new { controller = "Home", action = "Index", id = UrlParameter.Optional },
+                new { controller = "Login", action = "Index", id = UrlParameter.Optional },
                 namespaces: new string[] { "Fitness_Asp.Net_Project.Areas.Admin.Controllers" }
             );
             context.MapRoute(
